@@ -21,7 +21,9 @@ Quick Portfolio is a no-hassle Laravel website template for developers who want 
 
 9.) Open up your web browser and go the url: ```localhost:8000```
 
-10.) Enter in your email and auth code you set in ```.env```
+10.) Enter in the email and auth code you set in ```.env```
+
+11.) See [Laravel Setup Guide](https://laravel.com/docs/7.x/installation) for more details.
 
 
 
