@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family: 'Roboto', cursive; 
+}
+
+.page-wrap{
+    top:60px;
+    position: relative;
+    min-height:calc(100vh - 60px);
+    background-color:#1d1d1d;
+    color:#ededed;
+    padding-bottom: 50px;
+    z-index:2;
+}
+
+.container{
+    padding-top: 50px;
+    width: 65%;
+    margin: auto;    
+}
+
+.card{
+    background-color: #3a4047;        
+}
+
+pre{
+    color:#fff;
+}
+
+.quickstart{
+    height:100vh;
+    top:0;
+}
+
+@media only screen and (max-width:425px){
+    .container{
+        width:90%;
+    }   
+}
+

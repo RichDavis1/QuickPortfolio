@@ -1,0 +1,14 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon   
+
+parameters:
+    level: 8
+    paths:
+        - 'app'
+    excludes_analyse:
+        - app/Console
+        - app/Exceptions
+        - app/Http/Controllers/Auth
+        - app/Http/Middleware/
+        - app/Http/Kernel.php
+        - app/Providers

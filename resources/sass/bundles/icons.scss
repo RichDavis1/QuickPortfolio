@@ -1,0 +1,61 @@
+.fa{
+    color: #5fc9e1;
+    cursor: pointer;
+
+
+    &:hover{
+        opacity:.3;
+    }
+}
+
+.fan{
+    font-size:25px !important;    
+}
+
+.fa-caret-down{
+    color: #000;    
+}
+
+.fa-minus{
+    color: #e83b3b;
+}
+
+.fa-times{
+    color:#e83b3b;
+}
+
+#post-status{
+    text-transform: capitalize;
+}
+
+.github-grey{
+    background:url('../../../public/svg/github-grey.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover{
+        background:url('../../../public/svg/github.svg');
+        background-repeat: no-repeat;
+        background-position: center;        
+    }
+}
+
+.linkedin-grey{
+    background:url('../../../public/svg/linkedin-grey.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover{
+        background:url('../../../public/svg/linkedin.svg');
+        background-repeat: no-repeat;
+        background-position: center;        
+    }
+}
+
+.header-icon{
+    height: 25px;
+    width: 25px;    
+
+    &+.header-icon{
+        margin-right:25px;
+    }
+}

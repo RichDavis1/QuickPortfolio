@@ -1,0 +1,88 @@
+.hero{
+    height: 50vh;
+    position: relative; 
+    width: 70%;
+    margin: auto;
+
+    .slogan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;        
+    }
+}
+
+.hero-bottom{
+    position: absolute;
+    bottom: 0;    
+
+    .icon{
+        height:50px;
+        width:50px;
+    }
+}
+
+#github-link{
+    background:url('../../../public/svg/github.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#linkedin-link{
+    background:url('../../../public/svg/linkedin.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (min-width : 1200px) and (orientation:landscape){
+    .hero{
+        width:70%;
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width:1200px) and (orientation:landscape){
+    .hero{
+        width:70%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){ 
+    .hero{
+        width:70%;
+    }
+}
+
+/*consider revisiting this one */
+@media screen and (min-width:450px) and (max-width:768px) and (orientation:landscape){
+    .hero{
+        width:70%;
+    }
+}
+
+
+/*Portrait*/
+@media only screen and (min-width : 1024px) and (orientation:portrait){
+    .hero{
+        width:70%;
+    }
+}
+
+@media screen and (min-width:568px) and (max-width:1024px) and (orientation:portrait){ 
+    .hero{
+        width:70%;
+    }
+}
+
+@media screen and (orientation:portrait){
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .hero{
+        width: 90%;
+    }    
+}
