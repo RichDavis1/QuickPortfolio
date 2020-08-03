@@ -8,6 +8,7 @@ use App\Http\Controllers\AdminController;
 
 Auth::routes();
 
+Route::post('admin-register', 'Auth\RegisterController@adminRegister');
 Route::get('/', function () {
     if (!User::adminExists()) {
         return (new AdminController())->show();
