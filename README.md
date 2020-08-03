@@ -3,11 +3,13 @@ Quick Portfolio is a Laravel website template for developers who want to quickly
 
 ## Installation
 
-1.) Clone repository and then traverse to the local directory.
+1.) Clone repository and then traverse to the local directory from CLI.
 
 2.) Run ```composer install```
 
-3.) 
+3.) Open ```.env``` and add your email & an authorization code code under ```ADMIN_EMAIL``` and ```AUTH_CODE```
+
+4.) 
 
 
 ## Features
