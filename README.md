@@ -1,5 +1,5 @@
 # QuickPortfolio
-Quick Portfolio is a Laravel website template for developers who want to quickly create a portfolio website.
+Quick Portfolio is a no-hassle Laravel website template for developers who want to quickly create a portfolio website.
 
 ## Installation
 
