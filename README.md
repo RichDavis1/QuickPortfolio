@@ -8,6 +8,7 @@ Quick Portfolio is a no-hassle Laravel website template for developers who want 
 2.) Open ```.env``` and add your email & a random authorization code for ```ADMIN_EMAIL``` and ```AUTH_CODE```
 
 3.) While you're still in ```.env```, add your database creds to ```DB_DATABASE```, ```DB_USERNAME```. and ```DB_PASSWORD```. 
+
 Make sure you have mysql in your path or an instance of XAMPP/PHPMYADMIN going.
 
 4.) Run ```$ composer install``` then run ```$ composer dumpautoload -o```
