@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::middleware('admin')->get('/admin', 'AdminController@show');
+Route::get('/admin', 'AdminController@show');
 
 Route::get('/projects', function () {
     $projects = Project::where('status', 'published')->get();
