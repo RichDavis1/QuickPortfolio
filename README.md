@@ -25,7 +25,9 @@ Make sure you have mysql in your path or an instance of Xampp/phpMyAdmin going.
 
 10.) Enter in the email and auth code you set in ```.env```
 
-11.) See [Laravel Setup Guide](https://laravel.com/docs/7.x/installation) for more details.
+11.) If logged out, you can sign in by going to /admin.
+
+12.) See [Laravel Setup Guide](https://laravel.com/docs/7.x/installation) for more details.
 
 
 
